@@ -25,8 +25,8 @@ public class MaxTemperature {
 
         System.out.println(args[1]);
         System.out.println(args[2]);
-        FileInputFormat.addInputPath(conf, new Path(args[2]));
-        FileOutputFormat.setOutputPath(conf, new Path(args[3]));
+        FileInputFormat.addInputPath(conf, new Path(args[1]));
+        FileOutputFormat.setOutputPath(conf, new Path(args[2]));
 
         conf.setMapperClass(MaxTemperatureMapper.class);
         conf.setReducerClass(MaxTemperatureReducer.class);
