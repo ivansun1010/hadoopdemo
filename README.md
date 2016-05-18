@@ -1,6 +1,5 @@
 #Program arguments
 
-/Users/ivan/idea/gittest/hadoopdemo/classes/artifacts/maxtemperature/maxtemperature.jar
-input/
+/Users/ivan/idea/gittest/hadoopdemo/classes/artifacts/maxtemperature/maxtemperature.jarinput/
 output/
 
