@@ -23,8 +23,8 @@ public class MaxTemperature {
         JobConf conf = new JobConf(MaxTemperature.class);
         conf.setJobName("Max temperature");
 
+        System.out.println(args[1]);
         System.out.println(args[2]);
-        System.out.println(args[3]);
         FileInputFormat.addInputPath(conf, new Path(args[2]));
         FileOutputFormat.setOutputPath(conf, new Path(args[3]));
 
